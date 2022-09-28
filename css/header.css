@@ -65,10 +65,18 @@ header section {
         right: calc((100% - 1024px)/2);
     }
 
-    .search {
-        display: inline-block;
+    header button {
         width: 2.5em;
         height: 2.5em;
+        cursor: pointer;
+    }
+
+    header button:hover {
+        background-color: #DDEBFC;
+    }
+
+    .search {
+        display: inline-block;
         background: url(../resources/search.png) no-repeat 0 0 / contain;
         background-position: 50% 50%;
         background-size: 1.75em;
@@ -77,8 +85,6 @@ header section {
     
     .user {
         display: inline-block;
-        width: 2.5em;
-        height: 2.5em;
         border-left: none;
         background: url(../resources/user.png) no-repeat 0 0 / contain;
         background-position: 50% 50%;
